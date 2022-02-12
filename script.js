@@ -30,7 +30,7 @@ let catVotesCell = document.querySelector('#catto-votes');
 //Now, we're adding this event listner
 catVoteBtn.addEventListener('click', function(e) {
     let catVotesCount = parseInt(catVotesCell.textContent);
-    catsVotesCount = catVotesCount + 1;
+    catVotesCount = catVotesCount + 1;
     catVotesCell.textContent = catVotesCount;
 });
 

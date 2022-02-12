@@ -47,5 +47,5 @@ let fishVotesCell = document.querySelector('#fish Gold-votes');
 fishVoteBtn.addEventListener('click', function(e) {
     let fishVotesCount = parseInt(fishVotesCell.textContent);
     fishVotesCount = fishVotesCount + 1;
-    fishVotesCell.textContent = fishVotesCount; 
+    fishVotesCell.textContent = fishVotesCount;
 });

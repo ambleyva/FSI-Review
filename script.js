@@ -8,15 +8,6 @@ dogVoteBtn.textContent = "Vote for Doggo"
 
 animals[0].append(dogVoteBtn)
 
-//isolate the vote for the dog in the voting table
-let dogVotsCell = document.querySelector('#doggo-vites');
-
-//Now, we're adding this event listener
-dogVoteBtn.addEventListener('click', function(e) {
-    let dogVotesCount = parseInt(dogVotsCell.textContent );
-    dogVotesCount = dogVotesCount + 1;
-    dogVotsCell.textContent = dogVotesCount;
-});
 
 //create cat vote button 
 let catVoteBtn = document.createElement('button')

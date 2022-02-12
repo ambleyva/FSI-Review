@@ -40,4 +40,12 @@ fishVoteBtn.textContent = "Vote for Fish Gold"
 
 animals[2].append(fishVoteBtn)
 
+//isolate the vote count got the cat in the voting table
+let fishVotesCell = document.querySelector('#fish Gold-votes');
 
+//Now, we're adding an event listener 
+fishVoteBtn.addEventListener('click', function(e) {
+    let fishVotesCount = parseInt(fishVotesCell.textContent);
+    fishVotesCount = fishVotesCount + 1;
+    fishVotesCell.textContent = fishVotesCount; 
+});

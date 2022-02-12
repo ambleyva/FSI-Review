@@ -16,7 +16,7 @@ animals[1].append(catVoteBtn)
 
 //create Golden Fish vote button
 let fishVoteBtn = document.createElement('button')
-fishVoteBtn.textcontent = 'Vote for Fish Gold'
+fishVoteBtn.textcontent = "Vote for Fish Gold"
 
 animals[2].append(fishVoteBtn)
 

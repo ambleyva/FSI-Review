@@ -18,12 +18,22 @@ dogVoteBtn.addEventListener('click', function(e) {
     dogVotesCell.textContent = dogVotesCount;
 });
 
-
 //create cat vote button 
 let catVoteBtn = document.createElement('button')
 catVoteBtn.textContent = "Vote for Catto"
 
 animals[1].append(catVoteBtn)
+
+//isolate the vote count got the cat in the voting table
+let catVotesCell = document.querySelector('#catto-votes');
+
+//Now, we're adding this event listner
+catVoteBtn.addEventListener('click', function(e) {
+    let catVotesCount = parseInt(catVotesCell.textContent);
+    catsVotesCount = catVotesCount + 1;
+    catVotesCell.textContent = catVotesCount;
+});
+
 
 //create Fish vote button
 let fishVoteBtn = document.createElement('button')

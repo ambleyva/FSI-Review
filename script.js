@@ -13,7 +13,7 @@ let dogVotsCell = document.querySelector('#doggo-vites');
 
 //Now, we're adding this event listener
 dogVoteBtn.addEventListener('click', function(e) {
-    let dogVotesCount = parseInt(dogVotsCell.textContent);
+    let dogVotesCount = parseInt(dogVotsCell.textContent );
     dogVotesCount = dogVotesCount + 1;
     dogVotsCell.textContent = dogVotesCount;
 });

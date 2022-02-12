@@ -34,9 +34,9 @@ catVoteBtn.addEventListener('click', function(e) {
     catVotesCell.textContent = catVotesCount;
 });
 
-//create Fish vote button
+//create fish vote button 
 let fishVoteBtn = document.createElement('button')
-fishVoteBtn.textcontent = "Vote for Fish Gold"
+fishVoteBtn.textContent = "Vote for Fish Gold"
 
 animals[2].append(fishVoteBtn)
 
